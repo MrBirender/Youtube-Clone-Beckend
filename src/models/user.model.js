@@ -56,7 +56,7 @@ const userSchema = new Schema(
   {
     timestamps: true,
   }
-);
+);  
 
 // incription of password using pre middelware and bcrpyt package
 userSchema.pre("save", async function (next) {
